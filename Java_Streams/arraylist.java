@@ -12,5 +12,7 @@ public class arraylist {
         list.add(40);
         list.add(50);
         list.add(60);
+        System.out.println(list);
+
     }
 }
