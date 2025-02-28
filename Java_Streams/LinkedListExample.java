@@ -27,12 +27,10 @@ public class LinkedListExample { // Renamed class to reflect LinkedList usage
         list.add(50);
         list.add(60);
         
-        // Updating an element at index 3
-        list.set(3, 100);
-        System.out.println("Updated List: " + list);
-        
-        
-    }
+        // Removing an element at index 1
+        list.remove(1);
+        System.out.println("List after removal: " + list);
+           }
 
     
 }
