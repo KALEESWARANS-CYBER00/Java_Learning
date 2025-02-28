@@ -19,6 +19,14 @@ public class LinkedListExample { // Renamed class to reflect LinkedList usage
         // Creating a LinkedList of Integer type
         LinkedList<Integer> list = new LinkedList<Integer>();
         
+        // Adding elements to the LinkedList
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(40);
+        list.add(50);
+        list.add(60);
+        
         
     }
 
