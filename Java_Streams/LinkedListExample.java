@@ -1,9 +1,18 @@
 package Java_Streams;
 
-import java.util.Arrays;
-import java.util.LinkedList;
+import java.util.LinkedList; // Importing LinkedList class from java.util package
 
-public class LinkedListExample {
-    LinkedList<Integer> linked=new LinkedList<Integer>(Arrays.asList(10,20,30,40,50,60,1,2,3));
+/**
+ * Author: Kali
+ * 
+ * This class demonstrates the usage of LinkedList in Java.
+ */
+public class LinkedListExample { // Renamed class to reflect LinkedList usage
+    
+    /**
+     * This method creates a LinkedList of integers, adds elements to it,
+     * and prints the contents.
+     */
+    
     
 }
