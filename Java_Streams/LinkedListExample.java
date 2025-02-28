@@ -27,6 +27,26 @@ public class LinkedListExample { // Renamed class to reflect LinkedList usage
         list.add(50);
         list.add(60);
         
+        // Printing the LinkedList contents
+        System.out.println("List Elements: " + list);
+        
+        // Accessing an element at index 2
+        System.out.println("Element at index 2: " + list.get(2));
+        
+        // Updating an element at index 3
+        list.set(3, 100);
+        System.out.println("Updated List: " + list);
+        
+        // Removing an element at index 1
+        list.remove(1);
+        System.out.println("List after removal: " + list);
+        
+        // Checking if an element exists
+        System.out.println("List contains 50: " + list.contains(50));
+        
+        // Getting the size of the LinkedList
+        System.out.println("Size of the list: " + list.size());
+        
         // Clearing all elements from the LinkedList
         list.clear();
         System.out.println("List after clearing: " + list);
