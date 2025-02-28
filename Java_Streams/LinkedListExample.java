@@ -13,6 +13,14 @@ public class LinkedListExample { // Renamed class to reflect LinkedList usage
      * This method creates a LinkedList of integers, adds elements to it,
      * and prints the contents.
      */
-    
+    void demonstrateLinkedList() {
+        System.out.println("LinkedList Example"); // Printing a message
+        
+        // Creating a LinkedList of Integer type
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        
+        
+    }
+
     
 }
