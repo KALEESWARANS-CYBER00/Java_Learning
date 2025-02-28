@@ -27,10 +27,12 @@ public class LinkedListExample { // Renamed class to reflect LinkedList usage
         list.add(50);
         list.add(60);
         
-        // Removing an element at index 1
-        list.remove(1);
-        System.out.println("List after removal: " + list);
-           }
+        
+        // Checking if an element exists
+        System.out.println("List contains 50: " + list.contains(50));
+        
+        
+    }
 
     
 }
