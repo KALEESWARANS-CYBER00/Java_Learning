@@ -27,8 +27,10 @@ public class LinkedListExample { // Renamed class to reflect LinkedList usage
         list.add(50);
         list.add(60);
         
-        // Accessing an element at index 2
-        System.out.println("Element at index 2: " + list.get(2));
+        // Updating an element at index 3
+        list.set(3, 100);
+        System.out.println("Updated List: " + list);
+        
         
     }
 
