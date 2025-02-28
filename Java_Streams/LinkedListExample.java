@@ -27,9 +27,9 @@ public class LinkedListExample { // Renamed class to reflect LinkedList usage
         list.add(50);
         list.add(60);
         
-        // Getting the size of the LinkedList
-        System.out.println("Size of the list: " + list.size());
-        
+        // Clearing all elements from the LinkedList
+        list.clear();
+        System.out.println("List after clearing: " + list);
     }
 
     
